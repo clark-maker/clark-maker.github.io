@@ -1,0 +1,148 @@
+body{
+	margin: 0;
+	padding: 0;
+	font-family: 'Montserrat Subrayada', sans-serif;
+}
+
+h1, h2,h3, h4, h5{
+	text-align: center;
+}
+
+
+
+
+/*header*/
+
+
+.header{
+	display: flex;
+}
+
+.img__title{
+	margin-left: 400px;
+	margin-top: 50px;
+}
+
+.nav{
+	margin-top: 70px;
+	margin-left: 170px;
+
+
+}
+
+.nav__link{
+	margin-right: 15px;
+	font-size: 18px;
+	text-decoration: none;
+	font-weight: bold;
+	border: 1px solid #fff;
+	text-align: center;
+	padding: 5px 5px;
+	border-radius: 7px;
+	
+}
+
+.nav__link:hover{
+	background: #FFBC41;
+	color: white;
+	
+
+}
+
+
+
+/*intro*/
+
+.intro{
+	background: #719DCA;
+	width: 100%;
+	height: 550px;
+	margin-top: 20px;
+	position: relative;
+	
+}
+
+.intro__title{
+	padding-top: 120px;
+	color: #F8FFFF;
+	font-weight: bold;
+	line-height: 2px;
+
+}
+
+.intro__subtitle{
+	color: #A5C9EB;
+	text-align: center;
+}
+
+.intro2__subtitle{
+	background: white;
+	width: 200px;
+	height: 30px;
+	padding: 10px;
+
+}
+
+.intro2{
+	text-align: center;
+}
+
+input{
+	width: 260px;
+	height: 40px;
+	margin-left: 5px;
+	padding-left: 10px;
+}
+
+button{
+	width: 260px;
+	height: 45px;
+	margin-left: 5px;
+	
+	text-transform: uppercase;
+
+}
+button:hover{
+	background: #FFBB44;
+	border:1px solid #FFBB44;
+	transition: .2s linear;
+	color: white;
+}
+
+.img__subtitle{
+	position: absolute;
+	top: 270px;
+	left: 640px;
+
+}
+
+.to4ka{
+	margin: 0 auto;
+	position: relative;
+	top: 0;
+	left: 0 ;
+
+}
+
+
+.to4ka__title{
+	width: 10px;
+	height: 10px;
+	border: 2px solid blue;
+	border-radius: 50%;
+	margin-left: 5px;
+	float: left;
+	background: black;
+
+}
+
+.to4ka{
+	text-align: center;
+	margin-left: 900px;
+	margin-top: 390px;
+}
+
+footer{
+	margin-top: 250px;
+	margin-left: -30px;
+}
